@@ -1,0 +1,55 @@
+
+html,body{
+	height:100%;
+}
+
+body {
+    padding:0;  /*去除内边距*/
+    border:0;   /*去除边框*/
+    margin:0;   /*去除外边距*/
+}
+
+.login_content_layer1{
+   	background: #00b7fd;
+	height:100%;
+	width:100%;
+}
+
+.login_content_layer2{
+   	background:url(../img/login.jpg) no-repeat;  
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+	-moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+	background-attachment: fixed;
+	height:100%;
+	width:100%;
+}
+
+.login_box{
+	text-align: center;
+	margin: auto;
+    position: absolute;
+	width:40%;
+	left: 0; right: 0; top: 30%; bottom: 0;
+}
+
+.login_pic_div{
+	text-align: center;
+	margin: 0 auto;
+	width:80%;
+}
+
+.login_medium_float{
+	width:100%;
+	float:left;
+}
+
+.login_box .input-group,.login_box .form-control{
+	height:50px;
+}
+.login_box .input-group-addon{
+	width:50px;
+}
+
+
+	
